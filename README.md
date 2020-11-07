@@ -1,37 +1,167 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/QNMProd/Website/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <title>Niko</title>
+    <link rel="Icon" href="images/OIP.jfif">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css' />
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <link href="//fastmobileporndelivery.hqporner.com/css/framework.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="//fastmobileporndelivery.hqporner.com/css/colorbox.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="//fastmobileporndelivery.hqporner.com/css/elements.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="//fastmobileporndelivery.hqporner.com/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="//fastmobileporndelivery.hqporner.com/css/responsive.css" rel="stylesheet" type="text/css"
+        media="screen" />
+    <link href="//fastmobileporndelivery.hqporner.com/css/hidpi.css" rel="stylesheet" type="text/css" media="screen" />
 
-### Markdown
+    <script type="text/javascript" src="//fastmobileporndelivery.hqporner.com/js/jquery.min.js"></script>
+    <script type="text/javascript">
+    //$(document).ready(function(){
+    //	if ($('#loadcontrol').html().trim().length > 500) {
+    //		document.getElementById("loadcontrol").style.display = 'block';
+    //	}
+    //});
+    </script>
+    <!--<script type="text/javascript" src="/js/change-m.js"></script>-->
+    <script type="text/javascript" src="//fastmobileporndelivery.hqporner.com/js/effects.jquery-ui.min.js"></script>
+    <script type="text/javascript" src="//fastmobileporndelivery.hqporner.com/js/jquery.colorbox.min.js"></script>
+    <script type="text/javascript" src="//fastmobileporndelivery.hqporner.com/js/custom.js"></script>
+    <script type="text/javascript" src="//fastmobileporndelivery.hqporner.com/js/cookies.js"></script>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <link rel="stylesheet" href="//fastmobileporndelivery.hqporner.com/css/font-awesome/css/font-awesome.min.css">
 
-```markdown
-Syntax highlighted code block
+    <style>
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 0px;
+            height: 0;
+            overflow: hidden;
+            background: #000;
+        }
 
-# Header 1
-## Header 2
-### Header 3
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
 
-- Bulleted
-- List
+        i {
+            margin-right: 6px;
+            margin-top: 6px;
+        }
 
-1. Numbered
-2. List
+        .meta_data {
+            margin-right: 12px;
+            margin-top: 6px;
+        }
 
-**Bold** and _Italic_ and `Code` text
+        .fol {
+            padding: 6px 12px;
+            background: #333;
+            margin: 6px 6px 0 0;
+            float: left;
+        }
 
-[Link](url) and ![Image](src)
-```
+        .pornstars {
+            padding: 24px 0 0 0;
+        }
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        .pornstars a {
+            color: #666 !important;
+            border-bottom: 1px dotted #666;
+            text-decoration: none !important;
+        }
 
-### Jekyll Themes
+        .pornstars a:hover {
+            border-bottom: 0px dotted #666;
+        }
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/QNMProd/Website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        @keyframes blink {
+            0% {
+                opacity: .2;
+            }
 
-### Support or Contact
+            20% {
+                opacity: 1;
+            }
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+            100% {
+                opacity: .2;
+            }
+        }
+
+        .loading_dots span {
+            animation-name: blink;
+            animation-duration: 1.4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: both;
+        }
+
+        .loading_dots span:nth-child(2) {
+            animation-delay: .2s;
+        }
+
+        .loading_dots span:nth-child(3) {
+            animation-delay: .4s;
+        }
+
+        .loading_dots {
+            padding: 15px 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .altPlayerButton {
+            padding: 6px 12px;
+            background: #333;
+            display: inline-block;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function altPlayer() {
+            $.ajax({
+                url: '/blocks/altplayer.php?i=//mydaddy.cc/video/5aa99ed4dc2312e3ca/',
+                cache: false,
+                beforeSend: function () { $('#playerWrapper').html('<h3 class="loading_dots">One moment <span>.</span><span>.</span><span>.</span></h3>'); },
+                success: function (html) {
+                    $('#playerWrapper').innerHTML = '';
+                    $('#playerWrapper').html(html);
+                }
+            });
+            $('#linkAltPlayer').attr('onclick', 'nativePlayer();this.innerHTML = \'Go to alternative player\';return false;');
+            return false;
+        }
+
+        function nativePlayer() {
+            $.ajax({
+                url: '/blocks/nativeplayer.php?i=//mydaddy.cc/video/5aa99ed4dc2312e3ca/',
+                cache: false,
+                beforeSend: function () { $('#playerWrapper').html('<h3 class="loading_dots">One moment <span>.</span><span>.</span><span>.</span></h3>'); },
+                success: function (html) {
+                    $('#playerWrapper').innerHTML = '';
+                    $('#playerWrapper').html(html);
+                }
+            });
+            $('#linkAltPlayer').attr('onclick', 'altPlayer();this.innerHTML = \'Back to native\';return false;');
+            return false;
+        }
+    </script>
+
+</head>
+
+</head>
+
+<body>
+    <div class="video-container" id="playerWrapper">
+        <h3 class="loading_dots">Loading may take some time <span>.</span><span>.</span><span>.</span></h3>
+        <iframe src="//mydaddy.cc/video/5aa99ed4dc2312e3ca/" width="640" height="360" frameborder="0" scrolling="no"
+            allowfullscreen=""></iframe>
+    </div>
+</body>
+
+</html>
